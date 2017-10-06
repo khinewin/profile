@@ -1,0 +1,29 @@
+#authTitle{
+    font-size: 30px;
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+#authTitle small{
+    font-size: 20px;
+    color: orange;
+
+}
+#userImage {
+    width: 200px;
+
+}
+
+#pageHeader{
+    margin-top: 0; height: 100px; line-height: 100px;
+   background:#1d95e0;
+
+}
+
+#pageHeader2{
+    margin-top: 0; height: 80px; line-height: 80px;
+    background:#1d95e0;
+
+}
