@@ -37,4 +37,5 @@ class ClassController extends Controller
         $cs->delete();
         return redirect()->back();
     }
+
 }

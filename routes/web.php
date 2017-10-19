@@ -16,6 +16,11 @@ Route::get('/',[
     'as'=>'/'
 ]);
 
+Route::get('class-name/{cName}',[
+    'uses'=>'HomeController@getClassName',
+    'as'=>'posts'
+]);
+
 Route::group(['middleware'=>'auth'], function (){
 
     Route::group(['prefix'=>'user'],function (){
@@ -55,6 +60,7 @@ Route::group(['middleware'=>'auth'], function (){
             'uses'=>'ClassController@getDeleteClass',
             'as'=>'delete.class'
         ]);
+
     });
 
 });

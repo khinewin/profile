@@ -18,7 +18,7 @@
                 <div class="col-sm-6 col-md-6">
 
                 <div class="panel panel-info ">
-                    <div class="panel-heading text-center"><h4>{{$st->class_name}}</h4> <span class="text-warning">Class Date : {{$st->class_date}}</span>
+                    <div class="panel-heading text-center"><h4><a href="{{route('posts',['cName'=>$st->class_name])}}">{{$st->class_name}}</a></h4> <span class="text-warning">Class Date : {{$st->class_date}}</span>
                         <br>
                         <span class="text-danger">
                         @if($st->text_ten)<td><span class="glyphicon glyphicon-map-marker"></span> {{$st->text_ten}}</td>@endif
